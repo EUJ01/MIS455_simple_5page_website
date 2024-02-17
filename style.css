@@ -1,0 +1,47 @@
+body{
+    background-color: #F8FAE5;
+}
+
+a{
+    text-decoration: none;
+    color: #B19470;
+}
+
+.navbar{
+    display: flex;
+    justify-content: end;
+    background-color: #B19470;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.navButton{
+    width: 80px;
+    height: 40px;
+    padding: 0px 10px;
+    margin: 0px 10px;
+    background-color: #76453B;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.container-box{
+    background-color: #D2E3C8;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
